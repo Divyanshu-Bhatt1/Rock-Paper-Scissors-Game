@@ -1,0 +1,15 @@
+# Ignore Node.js-related files and folders within the server folder
+/node_modules
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore build output and logs within the server folder
+/build/
+/logs/
+
+# Ignore environment-specific files within the server folder
+.env
+.env.local
+.env.*.local

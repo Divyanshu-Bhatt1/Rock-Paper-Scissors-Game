@@ -1,0 +1,263 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+  
+body {
+  box-sizing: border-box;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+    background: radial-gradient(circle, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    overflow: hidden;
+  }
+
+.rules-btn{
+    background-color: hsl(237, 49%, 15%);
+    color:white;
+    outline:none;
+    border:solid white 1px;
+    height:30px;
+    width:85px;
+    border-radius: 8px;
+    cursor: pointer;
+    left: -24rem;
+    bottom: 5%;
+    margin-top: 3vw;
+}
+
+.pop-up_container{
+  height: 62vh;
+  width: 34vw;
+  background-color: white;
+  border-radius: 10px;
+  position:relative;
+  margin-top: 4vw;
+  left: 50%;
+  transform:translate(-80%,-38%)
+}
+
+.pop-up{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.pop-title{
+  color:hsl(237, 49%, 15%);
+  font-weight: 800;
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+
+.close-btn{
+    cursor: pointer;
+    position:absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.box{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  width:100vw;
+  
+}
+
+.box-1{
+  height: 55vh;
+  width: 45vw;
+  border-radius:10px;
+  background-color: White;
+  color:hsl(237, 49%, 15%);
+  /* padding: 20px; */
+  overflow: hidden;
+}
+.box-1 img{
+  margin-left:10vw;
+}
+.box-1 h2{
+  font-size: 20px;
+  font-weight: 500
+}
+.choose_btn{
+  font-weight: 700;
+  font-size: 1vw;
+  height: 3vw;
+  width: 8vw;
+    border-radius: 10px;
+}
+
+.choose_btn:hover{
+  color:white;
+  background-color:hsl(237, 49%, 15%) ;
+  cursor: pointer;
+}
+
+.choose{
+  margin-top: 60px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.or_p{
+  font-size: 25px;
+    margin: 0 65px;
+}
+
+.Result{
+background-color: white;
+border-radius: 3vw;
+height: 65vh;
+width: 45vw;
+position: absolute;
+z-index: 3;
+margin-top:40px;
+padding: 15px;
+overflow: hidden;
+}
+
+.res-h1{
+  text-align: center;
+  font-size: 2vw;
+  margin-bottom: 40px;
+}
+
+.Result-child{
+  height: 40vh;
+  gap:10px;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+.your-choice,.oponent-choice {
+  height: 40vh;
+  width: 30vw;
+  border-radius: 10px;
+}
+
+.your-choice{
+  background-color: hsl(132.37deg 67.2% 56.79%);
+}
+
+.oponent-choice{
+  background-color: hsl(349, 70%, 56%);
+}
+
+.flex{
+  display:flex;
+align-items: center;
+justify-content: center;
+margin-top: 35px;
+}
+
+.res-img{
+  height:70px;
+  width:70px;
+  MARGIN-TOP: 3VW;
+}
+
+.box-2{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1vw;
+  margin-top: -2vw;
+}
+
+.room-inp{
+  height: 3vw;
+  width: 325px;
+  border-radius: 8px;
+  padding: 10px;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-bottom: 2px;
+  }
+  
+.room-btn{
+  height: 45px;
+  width: 120px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.room-btn:hover{
+  color:white;
+  background-color:hsl(237, 49%, 15%) ;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 450px) {
+  .box h2{
+    font-size: 20px;
+  }
+  .choose button{
+    height: 10vw;
+    font-size: 4vw;
+    width: 22vw;
+margin-left: -3vw;
+margin-right: -3vw;
+  }
+  .room_btn{
+    height: 10vw;
+    font-size: 4vw;
+    width: 22vw;
+    margin: 0 auto;
+  }
+  .box-1{
+    height: 72vw;
+    width: 89vw;
+    margin-top: -40vw;
+  }
+  .choose{
+    width: 98%;
+    margin-left:3px;
+  }
+  .room-inp{
+    border-radius: 2vw;
+    width: 15rem;
+    height: 10vw;
+  } 
+
+  .Result{
+    width: 93vw;
+    margin: 0 auto;
+    height: 54vh;
+    margin-top: 3rem;
+    margin-left: 1rem;
+  }
+  .Result img{
+    height: 9vh;
+    width: 23vw;
+  }
+  .your-choice{
+    overflow: hidden;
+    height:26vh;
+    width: 42vw;
+  }
+  .oponent-choice{
+    overflow: hidden;
+    height:26vh;
+    width: 42vw;
+  }
+.res-h1 {
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: 20px;
+}
+.pop-up_container{
+  margin-right: -12vw;
+  height: 52vh;
+  width: 85vw;
+  margin-top: 14vw;
+}
+.box-1 img {
+  height: 54%;
+}
+}
+
