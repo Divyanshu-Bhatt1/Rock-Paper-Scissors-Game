@@ -84,5 +84,5 @@ function findRoomBySocketId(socketId) {
     return null;
 }
 
-server.listen(process.env.PORT,()=>{console.log("server is running")})
+server.listen(process.env.PORT||3001,()=>{console.log("server is running")})
 
