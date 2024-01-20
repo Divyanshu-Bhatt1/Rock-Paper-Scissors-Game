@@ -11,7 +11,7 @@ const ids={}
 
 const io=new Server(server,{
     cors:{
-        origin:process.env.ORIGIN,
+        origin:'https://rock-paper-scissors-cdgame.netlify.app',
         methods:["GET","POST"],
     }
 })
